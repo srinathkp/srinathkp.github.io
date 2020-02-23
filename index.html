@@ -1,12 +1,66 @@
-<!doctype html>
-<html>
-    <head>
-        <!-- <link rel="icon" href="images/favicon.ico" type="image/x-icon" /> -->
-        <title>
-            Srinath Prakash
-        </title>
-    </head>
-    <body>
-        Hello, World!
-    </body>
-</html>
+	<html>
+	<head>
+		<title>Portfolio-Template</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div class="flexbox">
+			<div class="left">
+			</div>
+			<div class="right">
+				<div class="image-block">
+					<div class="text-center">
+					<img src="img/srinath.jpg" class="img-circle img-responsive user-img"> <!--Your picture goes here -->
+					</div>
+				</div>
+				<div class="container text-center main-text">
+					<div class="card">
+						<h1 id="name">Srinath Prakash</h1> <!--Your name goes here -->
+						<h4 id="description">Full Stack Developer</h4> <!--Your profile goes here -->
+
+						<div class="center cta">
+							<a class="btn btn-primary btn-lg" href="https://github.com/srinathkp" target="_blank"><i class="fa fa-briefcase" aria-hidden="true"></i>  
+		 					&nbsp;My work </a> <!--Your call to action goes here -->
+						</div>
+
+						<div class="intro">
+							<p>
+									Full Stack Developer | Pythonist | Freelancer
+							</p>
+							<br>
+							<p id="quote">
+								<em>
+									“Make it work.<br> Make it right. <br> Make it fast.” <br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;– Kent Beck
+								</em>
+							</p>
+						</div>
+
+						<div class="social center">
+							<div class="container">
+		                        <ul class="footer-social"> <!--Your social links go here -->
+		                            <li> <a href="https://in.linkedin.com/in/srinath-prakash-4585a7103" ><span class="fa fa-linkedin"></span> </a> </li>
+		                            <li> <a href="mailto:srinathkprakash@gmail.com" class="wow zoomIn" data-wow-delay="1.1s"><span class="fa fa-envelope"></span> </a> </li>
+		                            <li><a href="#"><span class="fa fa-globe"></span> </a> </li>
+		                        </ul>
+		                    </div>
+	                	</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var x = document.getElementById("name").innerHTML;
+			var y = document.getElementById("description").innerHTML;
+			document.title=`${x} | ${y}`;
+		</script>
+	</body>
+	</html>
