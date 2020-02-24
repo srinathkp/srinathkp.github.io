@@ -95,7 +95,6 @@
 
 			.footer-social li:hover, .intro-social li:focus li{
 				background-color: #428bca;	
-				color: white;
 			}
 			
 			@media(max-width:900px) {
