@@ -93,10 +93,11 @@
 			    width: 43px;
 			}
 
-			.footer-social li:hover, .intro-social li:focus li{
-				background-color: #428bca;	
+			.footer-social a:hover{
+				color: #ffffff;	
+				background-color:#428bca;
 			}
-			
+					
 			@media(max-width:900px) {
 				.user-img {
 					max-width: 150px;
